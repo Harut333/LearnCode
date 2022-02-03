@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .d {
+    width: 40%;
+    height: 200px;
+    background-color: aqua;
+    margin: 50px 40px 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.d .d1 {
+    width: 20%;
+    height: 20%;
+    background-color: blue;
+    
+} */
+
+.main{
+    width: 70%;
+    height: 500px;
+    background-color: blueviolet;
+    margin-top: 100px;
+}
+.part1{
+    width: 30%;
+    height: 15%;
+    background-color: brown;
+    position: absolute;
+}

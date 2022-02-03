@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!DOCTYPE html>
+    </html>
+    <body>
+      <div class="main"><span>LearnCode</span>
+         <form name="form">
+            <input class="textview" name="textview">
+        </form>
+      <table>
+        <tr>
+            <td><input class="button special" type="button" value="C" onclick="clean()"></td>
+            <td><input class="button" type="button" value="<" onclick="back()"></td>
+            <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
+            <td><input class="button" type="button" value="&times" onclick="insert('*')"></td>
+       </tr>
+           <tr>
+               <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+               <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+               <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+               <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+          </tr>
+          <tr>
+              <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+              <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+              <td><input class="button" type="button" value="6" onclick="insert(4)"></td>
+              <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+         </tr>
+         <tr>
+             <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+             <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+             <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+             <td rowspan=5><input class="button special" style="height:110px;" type="button" value="=" onclick="equal()"></td>
+        </tr>
+        <tr>
+            <td colspan=2><input class="button special" style="width:110px;" type="button" value="0" onclick="insert(0)"></td>
+            <td><input class="button" type="button" value="." onclick="insert('.')"></td>
+        </tr>
+        </table>
+      </div>
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="calculator">
+        <div class="input" id="input"></div>
+        <div class="buttons">
+          <div class="operators">
+            <div>+</div>
+            <div>-</div>
+            <div>&times;</div>
+            <div>&divide;</div>
+          </div>
+          <div class="leftPanel">
+            <div class="numbers">
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
+            </div>
+            <div class="numbers">
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
+            </div>
+            <div class="numbers">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+            <div class="numbers">
+              <div>0</div>
+              <div>.</div>
+              <div id="clear">C</div>
+            </div>
+          </div>
+          <div class="equal" id="result">=</div>
+        </div>
+      </div>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <h1 style="text-align:center">Calculator App</h1>
+    <div class="container">
+        <br>
+        <table>
+            <tr>
+                <td colspan="3"><input type='text' id='result' class='screen' style="text-align: right;"></td>
+                <td>
+                    <input type='button' value='C' onclick="clearScreen()" class="clear" />
+                </td>
+            </tr>
+        </table>
+        <div class="keys">
+            <input type="button" value="7" class="button" onClick="display('7')"></input>
+            <input type="button" value="8" class="button " onClick="display('8')"></input>
+            <input type="button" value="9" class="button" onClick="display('9')"></input>
+            <input type="button" value="/" class="operator" onClick="display('/')"></input>
+            <input type="button" value="4" class="button" onClick="display('4')"></input>
+            <input type="button" value="5" class="button" onClick="display('5')"></input>
+            <input type="button" value="6" class="button" onClick="display('6')"></input>
+            <input type="button" value="*" class="operator" onClick="display('*')"></input>
+            <input type="button" value="1" class="button" onClick="display('1')"></input>
+            <input type="button" value="2" class="button" onClick="display('2')"></input>
+            <input type="button" value="3" class="button" onClick="display('3')"></input>
+            <input type="button" value="-" class="operator" onClick="display('-')"></input>
+            <input type="button" value="0" class="button" onClick="display('0')"></input>
+            <input type="button" value="." class="button" onClick="display('.')"></input>
+            <input type="button" value="=" class="button equal-sign" onClick="solve()"></input>
+            <input type="button" value="+" class="operator" onClick="display('+')"></input>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="calculator">
+      <div class="input" id="input"></div>
+      <div class="buttons">
+        <div class="operators">
+          <div>+</div>
+          <div>-</div>
+          <div>&times;</div>
+          <div>&divide;</div>
+        </div>
+        <div class="leftPanel">
+          <div class="numbers">
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="numbers">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+          </div>
+          <div class="numbers">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+          <div class="numbers">
+            <div>0</div>
+            <div>.</div>
+            <div id="clear">C</div>
+          </div>
+        </div>
+        <div class="equal" id="result">=</div>
+      </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
